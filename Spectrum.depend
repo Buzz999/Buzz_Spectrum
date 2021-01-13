@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1533734627 source:c:\datas\spectrum\z80.cpp
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"ZXSpectrum.h"
+	"Z80.h"
+
+1534234774 c:\datas\spectrum\zxspectrum.h
+	<stdint.h>
+	<string>
+	<vector>
+	<utility>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Z80.h"
+	"ZXCfg.h"
+	"ZXManager.h"
+	"ZXInputs.h"
+
+1533734697 c:\datas\spectrum\z80.h
+
+1533734702 c:\datas\spectrum\zxcfg.h
+	<string>
+	<map>
+	<deque>
+
+1533734634 source:c:\datas\spectrum\zxcfg.cpp
+	"ZXCfg.h"
+	<fstream>
+	<sstream>
+
+1534172238 source:c:\datas\spectrum\zxfiles.cpp
+	"ZXFiles.h"
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<iostream>
+
+1534166969 c:\datas\spectrum\zxfiles.h
+	<vector>
+	<string>
+
+1534173499 c:\datas\spectrum\zxmanager.h
+	<SFML/Graphics.hpp>
+	<stdint.h>
+	"ZXSpectrum.h"
+	"ZXVKeyboard.h"
+	"ZXVPad.h"
+	"ZXSequencer.h"
+	"ZXMenu.h"
+	"ZXInputs.h"
+
+1533740513 c:\datas\spectrum\zxvkeyboard.h
+
+1533744195 c:\datas\spectrum\zxvpad.h
+	<SFML/Graphics.hpp>
+	<string>
+
+1533738859 c:\datas\spectrum\zxsequencer.h
+	<stdint.h>
+	<deque>
+	<string>
+
+1533897931 c:\datas\spectrum\zxmenu.h
+	<string>
+	<vector>
+	<SFML/Graphics.hpp>
+	"ZXCfg.h"
+	"ZXInputs.h"
+	"ZXFiles.h"
+
+1534165716 source:c:\datas\spectrum\zxmain.cpp
+	"ZXSpectrum.h"
+	"ZXManager.h"
+	"ZXMenu.h"
+
+1534173480 source:c:\datas\spectrum\zxmanager.cpp
+	"ZXManager.h"
+	"ZXMenu.h"
+	<string>
+
+1534157418 source:c:\datas\spectrum\zxmenu.cpp
+	"ZXCfg.h"
+	"ZXMenu.h"
+	"ZXFiles.h"
+	"ZXSpectrum.h"
+	"ZXVPad.h"
+	<assert.h>
+
+1533738898 source:c:\datas\spectrum\zxsequencer.cpp
+	"ZXSequencer.h"
+	<stdlib.h>
+
+1534234807 source:c:\datas\spectrum\zxspectrum.cpp
+	"ZXSpectrum.h"
+	"ZXVKeyboard.h"
+	"Z80.h"
+	"ZXMenu.h"
+	"ZXFiles.h"
+	<iostream>
+	<string>
+	<sys/unistd.h>
+
+1533738203 source:c:\datas\spectrum\zxvkeyboard.cpp
+	"ZXVKeyboard.h"
+
+1533734689 source:c:\datas\spectrum\zxvpad.cpp
+	"ZXVPad.h"
+	<fstream>
+	<sstream>
+
+1533744213 c:\datas\spectrum\zxinputs.h
+	<vector>
+	<stdint.h>
+	<SFML/Graphics.hpp>
+
+1533744240 source:c:\datas\spectrum\zxinputs.cpp
+	"ZXInputs.h"
+	<stdint.h>
+	<fstream>
+	<sstream>
+

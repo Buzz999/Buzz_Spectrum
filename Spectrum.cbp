@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Spectrum" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Spectrum" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Client">
+				<Option output="bin/Client/Spectrum" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Client/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-m32" />
+				</Compiler>
+				<Linker>
+					<Add option="-O2" />
+					<Add option="-m32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Z80.cpp" />
+		<Unit filename="Z80.h" />
+		<Unit filename="ZXCfg.cpp" />
+		<Unit filename="ZXCfg.h" />
+		<Unit filename="ZXFiles.cpp" />
+		<Unit filename="ZXFiles.h" />
+		<Unit filename="ZXInputs.cpp" />
+		<Unit filename="ZXInputs.h" />
+		<Unit filename="ZXMain.cpp" />
+		<Unit filename="ZXManager.cpp" />
+		<Unit filename="ZXManager.h" />
+		<Unit filename="ZXMenu.cpp" />
+		<Unit filename="ZXMenu.h" />
+		<Unit filename="ZXSequencer.cpp" />
+		<Unit filename="ZXSequencer.h" />
+		<Unit filename="ZXSpectrum.cpp" />
+		<Unit filename="ZXSpectrum.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
